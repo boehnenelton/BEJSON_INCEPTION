@@ -1,0 +1,24 @@
+# BEJSON Ecosystem Git Ignore
+# Protects secrets and local state
+
+# Environment & Secrets
+dev/env_file.json
+dev/env_file.py
+dev/env_file.sh
+.env/
+
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Logs & Transient Data
+data/logs/*.bejson
+data/logs/*.log
+testing/
+
+# System/Temp
+.lab/
+*.bak
+*.tmp
